@@ -11,9 +11,10 @@ What is testing?
 * Findbugs (obsolete?)
 * Lint (JLint, etc)
 * Splint: http://splint.org/ (Statically checking for security vulnerabilities)
-* Unit testing related
 
-jUnit: https://junit.org/
+## Unit testing related
+
+* jUnit: https://junit.org/
 
 ## Coverage:
 
@@ -22,14 +23,12 @@ jUnit: https://junit.org/
 * JSCover (JavaScript): http://tntim96.github.com/JSCover/
 * gcov (GNU call-coverage profiler): http://gcc.gnu.org/onlinedocs/gcc/Gcov.html
 
-Web related:
+## Web related:
 
 * Selenium: https://www.seleniumhq.org/
 * htmlUnit: http://htmlunit.sourceforge.net/
 * Cypressio: https://www.cypress.io/
-* Behabiour Driven Development
-
-https://jbehave.org/
+* Behabiour Driven Development https://jbehave.org/
 
 ## Database related:
 
@@ -48,9 +47,12 @@ https://jbehave.org/
 ## Symbolic Analysis
 
 * SAL http://sal.csl.sri.com/
-* Model Checking
+
+### Model Checking
+
 * SPIN: http://spinroot.com/
-* Symbolic Analysis
+
+### Symbolic Analysis
 
 * SAL http://sal.csl.sri.com/
 * Model Checking
@@ -79,8 +81,7 @@ https://jbehave.org/
 * Mantis BT: http://www.mantisbt.org/
 * Bugzilla: https://bugzilla.mozilla.org/
 * Metrics mining related Tools
-
-Mining github: https://github.com/npalix/gitdm
+  Mining github: https://github.com/npalix/gitdm
 
 ## Other
 
@@ -91,10 +92,10 @@ Mining github: https://github.com/npalix/gitdm
 * http://alarcosj.esi.uclm.es/CombTestWeb/
 * JavaPathFinder: http://javapathfinder.sourceforge.net/RegressionTests.html
 
-Microsoft: https://visualstudio.microsoft.com/vs/features/testing-tools/
+* Microsoft: https://visualstudio.microsoft.com/vs/features/testing-tools/
 
 ## Obsolete (?)
 
-Tarantula: http://pleuma.cc.gatech.edu/aristotle/Tools/tarantula/
-http://grandtestauto.org/
-CCFinder? http://www.ccfinder.net/ccfinderx.html
+* Tarantula: http://pleuma.cc.gatech.edu/aristotle/Tools/tarantula/
+* http://grandtestauto.org/
+* CCFinder? http://www.ccfinder.net/ccfinderx.html
