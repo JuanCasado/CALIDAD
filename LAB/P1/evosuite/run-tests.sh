@@ -20,8 +20,13 @@ user_dir=$(pwd)
 cd /Users/mrblissfulgrin/Documents/UAH_2019_2020/CALIDAD/LAB/P1/evosuite/evosuite-tests
 
 # LOAD TESTS RUNNERS
-test_to_run=$(find . ! -name "*_scaffolding*" -type f | grep .class | cut -d"." -f2 | cut -d"/" -f2)
-java org.junit.runner.JUnitCore $test_to_run
+if [ -z $1 ];
+then
+  tests_to_run=$(find . ! -name "*_scaffolding*" -type f | grep .class | cut -d"." -f2 | cut -d"/" -f2)
+else
+  tests_to_run=$1
+fi
+java org.junit.runner.JUnitCore $tests_to_run
 
 # GO TO THE CALLER FOLDER
 cd $user_dir
