@@ -1,3 +1,6 @@
+#########################
+# DOWNLOAD DEPENDENCIES #
+#########################
 
 # JUNIT
 mvn dependency:get -DremoteRepositories=http://repo1.maven.org/maven2/ \
