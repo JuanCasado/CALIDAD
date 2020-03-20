@@ -1,4 +1,5 @@
 #!/bin/zsh
 
+rm *.class
 javac Main.java
 java Main
